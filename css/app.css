@@ -1,0 +1,12 @@
+.primary {background-color: rgb(254,132,126);}
+.secondary {background-color: gray;}
+.align_center {text-align: center;}
+.align_right {text-align: right;}
+.card {box-shadow: 5px 5px 30px #000;}
+.card_custom {box-shadow: none;
+              border: none;}
+.map {filter: grayscale();
+      -webkit-filter: grayscale(100%);
+       margin: 1rem 1rem;
+     }
+iframe {border: none;}     
