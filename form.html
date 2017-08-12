@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRANSFORMATIV</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/foundation-icons.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="grid-x grid-padding-x grid-padding-y align-middle">
+    <div class="cell large-6 medium-6 small-12 align-center">
+      <img src="img/logo/logo.svg" alt="">
+      <h4 class="align_center hide-for-small-only" id="message"></h4>
+    </div>
+    <div class="cell large-6 medium-6 small-12 align-center align-middle">
+      <div class="grid-x grid-padding-x align-spaced">
+        <div class="cell large-8 medium-12 small-12">
+          <h3> Thanks for getting in touch ! </h3>
+        </div>
+      </div>
+      <form id='foo' name="foo">
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label> Your Name </label>
+            <input id='contactname' name='contactname' type='text'>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label> Your Business Email </label>
+            <input id='email' name='email' type='email'>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label>Website</label>
+            <input id='website' name='website' type='url'>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label>Phone Number</label>
+            <input id='phone' name='phone' type='tel'>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label>Size of your Organization </label>
+            <select id='size' name="size">
+                  <option value="<50"> <50 </option>
+                    <option value="50-200"> 50 - 200 </option>
+                    <option value=">200"> > 200 </option>
+                </select>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label>Industry / Sector</label>
+            <input id='sector' name='sector' type='text'>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <label>What's your biggest pain point/area of improvement? </label>
+            <textarea id='painpoint' name='painpoint' rows='3'></textarea>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x align-spaced">
+          <div class="cell large-6 medium-6 small-12">
+            <h2 class="show-for-small-only" id="smallmessage"></h2>
+            <button type="button" onclick="check();">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
