@@ -35,6 +35,7 @@ $("#foo").submit(function(event){
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR){
         // Log a message to the console
+        alert ("coming here");
         document.getElementById('message').innerHTML = "Thank you for your message! We will get back to you shortly." + "<br><br><a href='./index.html'> Home </a>";
         document.getElementById('smallmessage').innerHTML = "Thank you for your message! We will get back to you shortly." + "<br><br><div class='align_center'><a href='./index.html'> Home </a></div><br><br>";
 
