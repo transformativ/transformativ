@@ -35,7 +35,6 @@ $("#foo").submit(function(event) {
     }
   });
 
-
   // Callback handler that will be called on failure
   request.fail(function(jqXHR, textStatus, errorThrown) {
     // Log the error to the console
@@ -44,8 +43,6 @@ $("#foo").submit(function(event) {
       textStatus, errorThrown
     );
   });
-
-
 
   // Prevent default posting of form
   event.preventDefault();
