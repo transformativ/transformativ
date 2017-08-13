@@ -36,7 +36,7 @@ $("#foo").submit(function(event){
     request.done(function (response, textStatus, jqXHR){
         // Log a message to the console
         document.getElementById('message').innerHTML = "Thank you for your message! We will get back to you shortly." + "<br><br><a href='./index.html'> Home </a>";
-        document.getElementById('smallmessage').innerHTML = "Thank you for your message! We will get back to you shortly." + "<br><br><a href='./index.html'> Home </a>";
+        document.getElementById('smallmessage').innerHTML = "Thank you for your message! We will get back to you shortly." + "<br><br><div class='align_center'><a href='./index.html'> Home </a></div><br><br>";
 
     });
 
@@ -85,7 +85,7 @@ var check = function() {
 
       else {
         document.getElementById('message').innerHTML = "Please fill-in the required fields";
-        document.getElementById('smallmessage').innerHTML = "Thank you for your message! We will get back to you shortly." + "<br><br><div class='align_center'><a href='./index.html'> Home </a></div><br><br>";
+        document.getElementById('smallmessage').innerHTML = "Please fill-in the required fields";
       }
 
 }
